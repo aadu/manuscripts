@@ -1,0 +1,268 @@
+\documentclass[man]{apa6}\usepackage{graphicx, color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\definecolor{fgcolor}{rgb}{0.2, 0.2, 0.2}
+\newcommand{\hlnumber}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlfunctioncall}[1]{\textcolor[rgb]{0.501960784313725,0,0.329411764705882}{\textbf{#1}}}%
+\newcommand{\hlstring}[1]{\textcolor[rgb]{0.6,0.6,1}{#1}}%
+\newcommand{\hlkeyword}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlargument}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlcomment}[1]{\textcolor[rgb]{0.180392156862745,0.6,0.341176470588235}{#1}}%
+\newcommand{\hlroxygencomment}[1]{\textcolor[rgb]{0.43921568627451,0.47843137254902,0.701960784313725}{#1}}%
+\newcommand{\hlformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hleqformalargs}[1]{\textcolor[rgb]{0.690196078431373,0.250980392156863,0.0196078431372549}{#1}}%
+\newcommand{\hlassignement}[1]{\textcolor[rgb]{0,0,0}{\textbf{#1}}}%
+\newcommand{\hlpackage}[1]{\textcolor[rgb]{0.588235294117647,0.709803921568627,0.145098039215686}{#1}}%
+\newcommand{\hlslot}[1]{\textit{#1}}%
+\newcommand{\hlsymbol}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlprompt}[1]{\textcolor[rgb]{0.2,0.2,0.2}{#1}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+\input{/home/duke/Dropbox/rev5ht/paper/packages.tex}
+\begin{document}
+\maketitle
+%
+% INTRODUCTION
+%
+\input{/home/duke/Dropbox/rev5ht/paper/intro/intro.tex}
+
+
+
+\section{Results}
+\subsection{Search Results}
+
+
+
+Comprehensive literature searches including calls for unpublished studies revealed 1738 initial results, of which, 976 were duplicates, leaving 762 potentially relevant studies (see Figure \ref{fig:flow}). Title and abstract review revealed 376 results that were either not relevant or clearly did not meet inclusion\slash exclusion criteria. After obtaining the full text for the remaining 386 results, 215 additional reports were excluded because they did not meet inclusion and\slash or exclusion requirements. Out of the subsequent 171 items which were coded for inclusion in the meta-analysis, 27 reports were identified as reporting duplicate data and where also excluded. In total, the meta-analysis included 144 published and unpublished reports consisting of 354 effect sizes across 175 independent samples.
+
+
+\begin{figure}
+   \centering
+   \vspace{.8in}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/flow/flow_source.tex}   
+   \caption{Flow chart of literature search.}
+   \label{fig:flow}
+\end{figure}
+
+
+The combined sample included 6,567 individuals (2,004 women and 4,563 men). The mean sample size was 46 ($SD$ = 39) with 30\% ($SD$ = 35) female participants. The mean age of participants was 30.9 ($SD$ = 10.6). Ethnicity was not included as a demographic moderator because it was reported in only 23.6\% of studies. In contrast, both age and gender were reported in almost all studies with reporting rates of  98.7\% and 96.8\% respectively. Studies included clinical (36.6\%) and healthy (35.7\%) populations at about the same rate with 27.7\% of samples including a clinical group and healthy control. Given a large number of different measures used to assess aggression, anger, and hostility, aggression instrument moderator analyses were conducted only for the combined methods sample in order to ensure adequate power.
+
+
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/hiaa/forest.tex}}   
+   \caption{Forest plot of CSF 5-HIAA effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:hiaa_forest}
+\end{figure*}
+
+
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/atd/forest.tex}}
+   \caption{Forest plot of ATD effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:atd_forest}   
+\end{figure*}
+
+
+\begin{figure*}[p]      
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/pharm/forest.tex}}
+   \caption{Forest plot of pharmacological challenge effect sizes with 95\% confidence intervals. \\ \vspace*{-.5in}}   
+   \label{fig:pharm_forest}   
+\end{figure*}
+
+
+\begin{figure*}[p]
+   \vspace*{-1.4in}
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/endo/forest.tex}}   
+   \vspace*{-0.6in}
+   \caption{Forest plot of endocrine challenge study effect sizes with 95\% confidence intervals.}
+   \label{fig:endo_forest}   
+\end{figure*}
+
+
+\subsection{CSF 5-HIAA}
+
+
+Our literature review revealed 35 studies that measured the relation between CSF 5-HIAA and aggression yielding a total of 68 effect sizes with a combined sample size of $N = 1840$ (see Figure~\ref{fig:hiaa_forest}). The weighted mean effect size was $r$ = -0.066 for the fixed effects model (95\% $CI$[-0.11, -0.02], $p$ $<$ .01) and $r$ = -0.057 for the random effects model (95\% $CI$[-0.15, 0.03], $p$ = 0.21). The random effects model was not significantly different from zero. Effect sizes exhibited significant heterogeneity across studies \ensuremath{Q(34) = 98.01, p < .001, I^2 = 65.31}, indicating the need for additional moderator analyses.
+
+
+A series of univariate and multivariate meta-regression analyses were conducted in order to assess for methodological and population moderators. The first multivariate model (top of Table~\ref{tab:hiaatab}) examined methodological variables including sample size, year of publication, experimental design, and quality of information used to calculate the effect size. This model accounted for a significant amount of variance in study effect sizes ($Q_M = 3.07$, $p$ $<$ .05). Quality, sample size, and experimental design were not related to study outcome; however, year of publication was found to be a significant predictor of the correlation between CSF 5-HIAA and aggression $b = 0.02, SE_{\beta} = 0.01, 95\% CI [0.01,0.04]$, $p$ $<$ .01. The correlation between 5-HIAA and aggression was most negative in early studies and regressed towards zero each year between 1979 and 2010 by an average of 0.02. The second multivariate model tested sample characteristics and is presented in the bottom of Table~\ref{tab:hiaatab}. None of the hypothesized demographic moderators were significantly predictive of study effect size including gender, age, history of aggression, or presence of psychopathology ($Q_M = 0.5$, $p$ = 0.73).
+
+
+
+\begin{table*}[p]
+\caption{Tests of Weighted Regression Models for CSF 5-HIAA Moderators}
+\label{tab:hiaatab}
+\footnotesize{\hspace*{-.6in}\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_hiaa.tex}}
+\end{table*}
+
+
+\subsection{Acute Tryptophan Depletion (ATD)}
+
+
+Our search found 38 studies that measured the effects of ATD on aggressive behavior and\slash or mood, with 68 effect sizes and a combined sample size of $N = 1188$ (see Figure~\ref{fig:atd_forest}). The funnel plot is presented in Figure~\ref{fig:funnel} (criteria were not met for conducting a statistical test of funnel plot symmetry). The weighted mean effect size across the 38 studies that tested the relation between acute tryptophan depletion and aggression was $r = -0.091$ for the fixed effects model (95\% $CI$[-0.15, -0.03], $p$ $<$ .01) and $r = -0.099$ for the random effects model (95\% $CI$[-0.18, -0.02], $p$ $<$ .05), both of which were significant. The fail safe $N$ for the fixed effects model was 114. Effects sizes exhibited significant heterogeneity across studies \ensuremath{Q(37) = 56.02, p < .05, I^2 = 33.95}, and therefore, additional moderator analyses were carried out.
+
+
+As with CSF 5-HIAA, a series of meta-regression models were created to test for possible moderators of ATD's effect on aggression, hostility, and anger (all presented in Table~\ref{tab:atdregtab}). The first two models tested general and then ATD-specific methodological variables. The first model was non-significant ($Q_M = 0.8$, $p$ = 0.59) and included the following variables: overall study quality, randomization procedure, condition masking, experimental design, adequacy of data used to derive effect size estimates, and year of publication. ATD-specific methodological variables included control condition (placebo, balanced, augmented, fasting), weight of amino-acid beverages, weight of tryptophan content in balanced and augmented beverages, and time between ATD beverage consumption and aggression measurement, none of which accounted for a significance amount of variance in study effect sizes ($Q_M = 0.75$, $p$ = 0.95). In the final model, none of the sample characteristics tested (age, sex, presence of psychopathology, and history of aggression) were related to study outcome ($Q_M = 0.21$, $p$ = 0.93).
+
+
+\begin{table*}[h]
+\centering
+\caption{Tests of Weighted Regression Models for ATD Moderators}
+\label{tab:atdregtab}
+\footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_atd.tex}}
+\end{table*}
+
+
+\subsection{Pharmacological Challenge Studies}
+
+
+We identified 16 acute pharmacological challenge studies with a total of 48 effect sizes consisting of $395$ participants (see Figure~\ref{fig:pharm_forest}). The weighted mean effect size was $r$ = -0.21 for the fixed effects model (95\% $CI$[-0.33, -0.08], $p$ $<$ .01) and $r$ = -0.217 for the random effects model (95\% $CI$[-0.35, -0.08], $p$ $<$ .01), both of which were statistically significant. The test for heterogeneity was not significant, circumventing the need for moderator analyses \ensuremath{Q(15) = 16.86, p = 0.33, I^2 = 11.05}. All four criteria were met for statistically testing funnel plot asymmetry \parencite[see][]{Ioannidis2007}. Funnel plot assessment of small-study bias revealed adequate symmetry in the distribution of study effects ($z = -1.52$, $p$ = 0.13; see Figure~\ref{fig:funnel}).
+
+
+\subsection{Endocrine Challenge}
+
+
+\subsubsection{Prolactin}
+The weighted mean effect size across the 53 studies that tested the relation between  prolactin response and aggression, anger, and hostility was $r = -0.147$ for the fixed effects model (95\% $CI$[-0.19, -0.11], $p$ $<$ .001) and $r = -0.14$ for the random effects model (95\% $CI$[-0.21, -0.07], $p$ $<$ .001), both of which were significant. Individual study effect sizes for both prolactin and cortisol are displayed in Figure~\ref{fig:endo_forest}, and funnel plots are presented in Figure~\ref{fig:funnel}. There was significant heterogeneity across studies suggesting the need for moderator analyses \ensuremath{Q(52) = 129.76, p < .001, I^2 = 59.93}. Furthermore, Egger's test of funnel plot asymmetry was not significant, suggesting adequate symmetry ($z = 0.38$, $p$ = 0.71). 
+
+
+Possible methodological moderators were tested in univariate metaregression models and then combined in a multiple metaregression model (see Table~\ref{tab:endregtab}). The multiple metaregression model, which included sample size, year of publication, quality, and study design, did not explain a significant amount of variance in study outcomes $Q_M = 1.45$, $p$ = 0.23. A multiple metaregression model including participant gender, age, history of aggression, and psychopathology was not significant $Q_M = 1.75$, $p$ = 0.12 (Table~\ref{tab:endregtab}). Mean weighted effects across the various drugs used to elicit endocrine responses did not differ significantly (Table~\ref{tab:drugsx2}), even after taking dose into account.
+
+
+\begin{table*}
+\caption{Tests of Weighted Regression Models for Prolactin Challenge Test Moderators}
+\label{tab:endregtab}
+\footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_endo.tex}}
+\vspace*{.95in}
+\end{table*}
+ 
+ 
+\begin{table*}
+\centering
+\caption{Categorical Analysis of Drug Influence on Endocrine Response}
+\label{tab:drugsx2}
+\small{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_endo2.tex}}
+\vspace*{.6in}
+\end{table*}
+
+
+\subsubsection{Cortisol}
+A total of 22 studies were found that tested the relation between cortisol response and aggression, anger, and hostility (see Figure ~\ref{fig:endo_forest}). The mean weighted effect size was $r = -0.023$ for the fixed effects model (95\% $CI$[-0.10, 0.06], $p$ = 0.51 and $r = -0.016$ for the random effects model (95\% $CI$[-0.12, 0.09], $p$ = 0.64, both of which were not significantly different from zero. Dissimilar to prolactin, cortisol studies did not exhibit significant heterogeneity \ensuremath{Q(21) = 31.73, p = 0.06, I^2 = 33.83}, and therefore, methodological and sample characteristic moderator analyses were not conducted. However, the moderating impact of different drugs used to elicit the cortisol response was tested and is presented in the bottom of Table~\ref{tab:drugsx2}. The effects of different drugs did not differ significantly from one another.
+
+
+\subsection{Combined Estimate} 
+
+
+The weighted mean effect size across $k = 144$ studies that tested the relation between serotonin and aggression was $r = -0.114$ for the fixed effects model (95\% $CI$[-0.14, -0.09], $p$ $<$ .001) and $r = -0.116$ for the random effects model (95\% $CI$[-0.16, -0.07], $p$ $<$ .001), both of which were significantly different from zero. Effect sizes exhibited significant heterogeneity across studies \ensuremath{Q(143) = 316.59, p < .001, I^2 = 54.83}. Moderator analyses were conducted and are presented in Table~\ref{tab:overall_m1}. Unsurprisingly, the quality of information used to calculate the effect sizes was significantly related to effect size magnitude in both univariate and multivariate models such that larger magnitude effect sizes were associated with more detailed statistical reporting $Q_M = 2.63$, $p$ $<$ .05. None of the demographic moderators were significantly related to effect size $Q_M = 0.31$, $p$ = 0.91.
+
+
+A comparison across methods of measuring central serotonergic functioning is presented in Table~\ref{tab:comparison}. Findings across methods did not differ significantly one from another $Q_B$(3) = 4.16, 
+$p$ = 0.244. A comparison across aggression, hostility, and anger measures is presented in Table~\ref{tab:aggmeas}. There was significant heterogeneity between measures $Q_B$(17) = 28.90, 
+$p$ $<$ .05 in addition to significant residual heterogeneity after taking measure into account $Q_W$(209) = 445.3, $I^2$ = 53\%, $p$ $<$ .001. Moderator analyses conducted to determine if effect sizes differed across construct, source of information, temporal scope, and modality are presented in Table~\ref{tab:aggression}. Measures differed across source of information, but not construct, temporal scope, or modality. Interestingly, the mean weighted effect of studies that relied on \emph{other-reports} was significant in a positive direction $r$ = 0.17, 95\% $CI$[0.08, 0.26], $p$ $<$ .001, while measures that relied on \emph{self-reports} of aggression, anger, or hostility were significant in the expected negative direction $r$ = -0.11, 95\% $CI$[-0.15, -0.08], $p$ $<$ .001.
+
+
+\begin{table*}[h]
+  \caption{Tests of Weighted Regression Models of Likely Moderators for All Studies}
+  \label{tab:overall_m1}  
+  \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_overall.tex}}
+  \vspace*{.95in}
+\end{table*}
+
+
+\begin{table*}[h]
+ \centering
+ \caption{Comparison of Methods for Assessing Serotonergic Functioning}
+ \label{tab:comparison}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_comp.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{table*}[h] 
+ \centering
+ \caption{Measures of Aggression-related Constructs}
+ \label{tab:aggmeas}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_aggress.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{table*}[h] 
+ \centering
+ \caption{Properties of Measures of Aggression-related Constructs}
+ \label{tab:aggression}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_agg.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{figure*}
+  \centering 
+  \textsf{\input{/home/duke/Dropbox/serotonin/paper/results/sections/funnel/funnel.tex}}
+  \caption{Funnel plots with pseudo 95\% confidence limits}
+  \label{fig:funnel}
+\end{figure*} 
+ 
+
+%            %
+% DISCUSSION %
+%            %
+\input{/home/duke/Dropbox/rev5ht/paper/scussion/scussion.tex}
+
+\printbibliography
+
+
+
+
+\appendix
+\newrefsection
+\centering
+\textbf{Appendix\\ References Included in Meta-analysis}
+\vspace*{-1em}
+\fullcitebib{Agren1980, Almeida2010, Altman2010, Anthenelli2000, Barr1997, Berman2009, Bjork2000, Bond1995, Bond2001, Bond2004, Brambilla2001, Brown1982, Brown79, Buydens-Branchey1997, Buydens-Branchey2000, Castellanos1994, Cherek1995, Cherek1999, Cherek1999b, Cherek2001, Cherek2002, Cleare1995, Cleare1997, Cleare2000, Coccaro1989, Coccaro1992, Coccaro1997, Coccaro1997b, Coccaro2010, Coccaro2010b, Davis1999, Debener2002, Delva1996, Dolan1996, Dolan2001, Dolan2003, Dougherty1999, Ellenbogen1996, Evans2000, Fava2000, Finn1998, Fishbein1989, Flory2007, Fulwiler2005, Gardner1990, George2001, Germine1992, Gerra1995, Gerra1998, Gowin2010, Halperin1994, Halperin1997, Halperin2003, Handelsman1998, Hayward2005, Hennig2005, Hibbeln2000, Hughes2000, Kahn1988, Katz1994, Kaye2000, Kaye2003, Klaassen1999, Klaassen2002, Knott1999, Koreen1997, Koszycki1996, Kruesi1990, Krystal1994, Kuepper2010, Kunisato2011, Kunz1995, Lanctot2002, Landen2009, Lappalainen1999, LeMarquand1999, Lee2003, Limson1991, Lindenmayer1997, Linnoila1983, Linnoila1993, Lopez1996, Mannelli2006, Manuck1998, Manuck2000, Manuck2002, Marks2007, Marsh2002, Massey2004, McCann1994, McCloskey2009, Menkes1994, Minzenberg2006, Moeller1996, Moeller1996a, Moeller1998, Monteleone1998, Monteleone2000, Moss1990, Mulder2002, Netter1999, Netter2006, New2004, Paris2004, Patkar2006, Pihl1995, Pine1997, Placidi2001, Post1989, Prochazka2003, Ravindran1999, Richell2005, Roy1988, Rubia2005, Ryden2009, Salomon1994, Salomon1997, Schmeck2002, Schulz2002, Sher2003, Sher2003b, Sher2005, Sher2008, Simeon1992, Smith1986, Smith1987, Soderstrom2001, Soderstrom2003, Soloff2000, Soloff2003, Stanislav1998, Stanley2000, Stein1996, Stoff1992, Virkkunen1993, Virkkunen1996, Virkkunen2007, Wingrove1999, Wingrove1999a, Wood2006, Yatham2001, Young1985, Zepf2008, unpublishedBond}
+
+\end{document}
+

@@ -1,0 +1,63 @@
+Label,Column,Description
+id,A,This is an automatically generated field that creates a unique ID for each row of the spreadsheet.
+coder,B,Name of person coding the meta-analysis
+date,C,Date that the meta-analysis was coded (completion date if more than one day)
+bibtex,D,This is the bibtex ID or unique identifier assigned to the particular study. This allows automatic bibliography generation of all the studies included in the meta-analysis.
+author,E,"This is an abbreviated format for the author. Last name only if a single author (e.g., ""Bushman""), ampersan with two authors (""Bushman & Cooper"") and et al. if more than 2 authors (e.g., ""Bushman et al."")"
+year,F,Year that the report was published.
+v,G,"Version number. I generally start with 0.0 and then will increment it to 0.1, 0.2, etc. as I make changes to the coding sheet. If there are two effect sizes (i.e., two rows) from the same meta-analysis then only the first should have a version number -- the remainder of the rows should have an asterisk (i.e., *)"
+primary,H,"1 = the meta-analysis was primarily focused on drugs/alcohol and aggression. 0 = the meta-analysis was primarily focused on some other relationship (e.g., ""Risk factors for violence in psychosis"")"
+,,LITERATURE SEARCH
+lit_search,,"How much information was provided about the literature search? 0 = no information; 1 = partial information; 2 = complete information [databases used, search strings used, and time period of searches]"
+databases,,"List databases searched; ""not reported"" if it is not reported."
+journals,,"List of journals searched; ""none"" or ""not reported"" if journal titles are not specifically mentioned."
+bib_search,,NR = not reported; 0 = bibliographies of included references were not searched. 1 = authors searched bibliographies of included studies for additional studies.
+contact,,NR = not reported; 0 = authors did not contact authors; 1 = the authors of the review attempted to contact the authors of included studies.
+gray,,"NR = not reported; 0 = gray literature was excluded (e.g., ""RCT's only""); 1 = gray literature was included (e.g., unpublished manuscripts, dissertations, etc.)"
+keywords,,"Search strings and keywords; NR = not reported, 1 = specific search strings and keywords used in the database search were reported."
+flow,,"Whether or not the study flow was described. (NR = study flow not reported, 1 = study flow partially reported, 2 = study flow reported with the list of retrieved citations, the list of excluded studies, and justification for exclusion for each study)"
+lang,,"Whether or not language bias was addressed in the article. (0 = language bias was not addressed, 1 = authors justified use of only english studies, 2 = language was not restricted to english and/or studies published in multiple languages were included in the meta-analysis)."
+,,DESIGN
+pool,,"0 = pooling was not obtained, 1 = fixed effects model was obtain for meta-analysis, 2 = random effects model was obtained for meta-analysis, 3 = both random and fixed effects"
+hetero,,NR = heterogeneity across studies was not reported; 0 = heterogeneity across studies was not significant; 1 = heterogeneity across studies was significant
+quality,,"NR = not reported; 0 = no evaluation of study quality and/or conduction, 1 = simple measure of study quality, 2 = robust or formal (according to a published guideline or checklist) evaluation of study quality."
+bias,,"0 = publication bias not assessed, 1 = publication bias assessed informally, 2 = publication bias assessed formally (Egger's regression, funnel plot analysis)"
+irr,,"inter-coder reliability. 0 = not reported or not conducted, 1 = reported for a subset of the studies, 2 = reported for all studies."
+irr_kappa,,"The actual inter-rate reliability statistic. ""NA"" if inter-rater reliability is not reported. If a range is given, enter average value."
+elig,,"Eligability criteria. 0 = not reported, 1 = partially reported, 2 = both inclusion and exclusion criteria reported (e.g., type of studies, measures, populations, time period, experimental design, etc.)"
+adult,,"0 = children only, 1 = adults only, 2 = not specified or mixed child/adult samples."
+viol,,"0 = non-physical aggression only (anger, hostility, verbal aggression), 1 = physical aggression/violence only, 2 = not specified or mixed physical/non-physical aggression."
+agg_method,,"How were multiple effect sizes within studies treated? ""average"" = they were averaged to produce one effect size (includes z-score combinations, shifting-unit approach, etc.)., ""highest"" = they took the largest effect size from each study, ""random"" = they randomly selected an effect size from each study, ""not specified"" = they don't mention how they deal with multiple effect sizes per study, ""no aggregation"" = they don't worry about dependencies between effect sizes and treat them as independent -- (i.e., they don't aggregate across effect sizes within studies)."
+weighting,,"How were effect sizes combined in the meta-analysis. ""equal"" = no weighting was used -- each effect size contributed equally to the overall value regardless of variance or sample size, ""size"" = effect sizes were weighted by sample size, ""inverse"" = effect sizes were weighted by the inverse of their variance, ""not specified"" = there is no mention of effect size weighting."
+,,NARRATIVE DESCRIPTIONS FOR TABLE
+eligibility_criteria,,The eligibility criteria identified for the study. Focus on the most salient variables to the interaction between alcohol/drugs and violence. Use complete sentences as this portion will go directly into a table that is included in the study.
+population,,Was there a specific population identified. This will be included in the descriptive table in the publicaiton.
+design,,"Where there restrictions on study designs (e.g., RCT only or ""experimental only"" or ""no case studies"")"
+,,COMBINED SAMPLE CHARACTERISTICS
+age,,Age
+fem,,"Percent Female (50 = 50%, no decimals before initial percentages -- i.e., don't use 0.50 for 50%)."
+edu,,Years Education
+cau,,Percent caucasian
+aa,,Percent African American
+his,,Percent Hispanic
+asi,,Percent Asian
+mar,,Percent married
+,,EFFECTS
+sample,,"Consecutively numbered for each independent effect size (e.g., 1, 2, 3, 4)"
+drug,,"etoh = alcohol, substance = unclear or alcohol + illicit drugs, drug = illicit drugs only"
+drug_measure,,Label for substance use aspect
+agg_measure,,Label for aggression/violence aspect
+role,,"""perpetrator"" or ""victim"""
+k,,Number of studies included in the aggregate effect
+es_number,,Number of effect sizes included in the aggregate effect
+N,,Total combined sample of the aggregate effect
+dir,,"1 = substance is associated with more violence, -1 = substance is associated with less violence"
+stat,,"""d"" = cohen's d, ""r"" = correlation coefficient, ""or"" = odds ratio, ""rr"" = relative risk"""
+d,,Cohen's d (or hedge's g)
+r,,Correlation coefficient
+or,,Odds ratio
+rr,,Relative Risk
+CI_lb,,95% confidence interval -- lower bound
+CI_ub,,95% confidence interval -- upper bound
+p,,"significance level (e.g., .01 for < .01); ""ns"" = not significant"
+notes,,"Any notes, questions, concerns that you have."

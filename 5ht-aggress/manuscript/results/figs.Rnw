@@ -1,0 +1,224 @@
+\documentclass[man]{apa6}
+\input{/home/duke/Dropbox/rev5ht/paper/packages.tex}
+\begin{document}
+\maketitle
+%
+% INTRODUCTION
+%
+\input{/home/duke/Dropbox/rev5ht/paper/intro/intro.tex}
+
+
+
+\section{Results}
+\subsection{Search Results}
+<<flow, echo=FALSE>>=
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/overall/overall_results.RData")
+@
+
+Comprehensive literature searches including calls for unpublished studies revealed 1738 initial results, of which, 976 were duplicates, leaving 762 potentially relevant studies (see Figure \ref{fig:flow}). Title and abstract review revealed 376 results that were either not relevant or clearly did not meet inclusion\slash exclusion criteria. After obtaining the full text for the remaining 386 results, \Sexpr{386 - k.studies -27} additional reports were excluded because they did not meet inclusion and\slash or exclusion requirements. Out of the subsequent \Sexpr{k.studies + 27} items which were coded for inclusion in the meta-analysis, 27 reports were identified as reporting duplicate data and where also excluded. In total, the meta-analysis included \Sexpr{k.studies} published and unpublished reports consisting of \Sexpr{k.effects} effect sizes across \Sexpr{k.samples} independent samples.
+
+
+\begin{figure}
+   \centering
+   \vspace{.8in}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/flow/flow_source.tex}   
+   \caption{Flow chart of literature search.}
+   \label{fig:flow}
+\end{figure}
+
+
+The combined sample included \Sexpr{n.sum} individuals (\Sexpr{female} women and \Sexpr{male} men). The mean sample size was \Sexpr{n.m} ($SD$ = \Sexpr{n.sd}) with \Sexpr{fem.m}\% ($SD$ = \Sexpr{fem.sd}) female participants. The mean age of participants was \Sexpr{age.m} ($SD$ = \Sexpr{age.sd}). Ethnicity was not included as a demographic moderator because it was reported in only \Sexpr{r.ethnicity}\% of studies. In contrast, both age and gender were reported in almost all studies with reporting rates of  \Sexpr{r.age}\% and \Sexpr{r.gender}\% respectively. Studies included clinical (\Sexpr{r.clinical}\%) and healthy (\Sexpr{r.healthy}\%) populations at about the same rate with \Sexpr{r.both}\% of samples including a clinical group and healthy control. Given a large number of different measures used to assess aggression, anger, and hostility, aggression instrument moderator analyses were conducted only for the combined methods sample in order to ensure adequate power.
+
+
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/hiaa/forest.tex}}   
+   \caption{Forest plot of CSF 5-HIAA effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:hiaa_forest}
+\end{figure*}
+
+
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/atd/forest.tex}}
+   \caption{Forest plot of ATD effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:atd_forest}   
+\end{figure*}
+
+
+\begin{figure*}[p]      
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+%    \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/pharm/forest.tex}}
+   \caption{Forest plot of pharmacological challenge effect sizes with 95\% confidence intervals. \\ \vspace*{-.5in}}   
+   \label{fig:pharm_forest}   
+\end{figure*}
+
+
+\begin{figure*}[p]
+   \vspace*{-1.4in}
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/endo/forest.tex}}   
+   \vspace*{-0.6in}
+   \caption{Forest plot of endocrine challenge study effect sizes with 95\% confidence intervals.}
+   \label{fig:endo_forest}   
+\end{figure*}
+
+
+\subsection{CSF 5-HIAA}
+<<hiaa, echo=FALSE>>=
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/hiaa/hiaa_results.RData")
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/hiaa/mc1.RData")
+m_year = gsub(pattern="\\\\\\\\", replacement="\\\\", x=m_year)
+@
+Our literature review revealed \Sexpr{k} studies that measured the relation between CSF 5-HIAA and aggression yielding a total of \Sexpr{es} effect sizes with a combined sample size of $N = \Sexpr{N}$ (see Figure~\ref{fig:hiaa_forest}). The weighted mean effect size was $r$ = \Sexpr{fe} for the fixed effects model (\Sexpr{fe.ci}) and $r$ = \Sexpr{re} for the random effects model (\Sexpr{re.ci}). The random effects model was not significantly different from zero. Effect sizes exhibited significant heterogeneity across studies \ensuremath{\Sexpr{i2}}, indicating the need for additional moderator analyses.
+
+
+A series of univariate and multivariate meta-regression analyses were conducted in order to assess for methodological and population moderators. The first multivariate model (top of Table~\ref{tab:hiaatab}) examined methodological variables including sample size, year of publication, experimental design, and quality of information used to calculate the effect size. This model accounted for a significant amount of variance in study effect sizes (\Sexpr{m1.mp}). Quality, sample size, and experimental design were not related to study outcome; however, year of publication was found to be a significant predictor of the correlation between CSF 5-HIAA and aggression \Sexpr{m_year}. The correlation between 5-HIAA and aggression was most negative in early studies and regressed towards zero each year between \Sexpr{yr.min} and \Sexpr{yr.max} by an average of \Sexpr{m_year.est}. The second multivariate model tested sample characteristics and is presented in the bottom of Table~\ref{tab:hiaatab}. None of the hypothesized demographic moderators were significantly predictive of study effect size including gender, age, history of aggression, or presence of psychopathology (\Sexpr{m2.mp}).
+
+
+
+\begin{table*}[p]
+\caption{Tests of Weighted Regression Models for CSF 5-HIAA Moderators}
+\label{tab:hiaatab}
+\footnotesize{\hspace*{-.6in}\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_hiaa.tex}}
+\end{table*}
+
+
+\subsection{Acute Tryptophan Depletion (ATD)}
+<<ATD, echo=FALSE>>=
+load("/home/duke/Dropbox/serotonin/paper/results/sections/atd/atd_results.RData")
+@
+Our search found \Sexpr{k} studies that measured the effects of ATD on aggressive behavior and\slash or mood, with \Sexpr{es} effect sizes and a combined sample size of $N = \Sexpr{N}$ (see Figure~\ref{fig:atd_forest}). The funnel plot is presented in Figure~\ref{fig:funnel} (criteria were not met for conducting a statistical test of funnel plot symmetry). The weighted mean effect size across the \Sexpr{k} studies that tested the relation between acute tryptophan depletion and aggression was $r = \Sexpr{fe}$ for the fixed effects model (\Sexpr{fe.ci}) and $r = \Sexpr{re}$ for the random effects model (\Sexpr{re.ci}), both of which were significant. The fail safe $N$ for the fixed effects model was \Sexpr{fs}. Effects sizes exhibited significant heterogeneity across studies \ensuremath{\Sexpr{i2}}, and therefore, additional moderator analyses were carried out.
+
+
+As with CSF 5-HIAA, a series of meta-regression models were created to test for possible moderators of ATD's effect on aggression, hostility, and anger (all presented in Table~\ref{tab:atdregtab}). The first two models tested general and then ATD-specific methodological variables. The first model was non-significant (\Sexpr{m1.mp}) and included the following variables: overall study quality, randomization procedure, condition masking, experimental design, adequacy of data used to derive effect size estimates, and year of publication. ATD-specific methodological variables included control condition (placebo, balanced, augmented, fasting), weight of amino-acid beverages, weight of tryptophan content in balanced and augmented beverages, and time between ATD beverage consumption and aggression measurement, none of which accounted for a significance amount of variance in study effect sizes (\Sexpr{m2.mp}). In the final model, none of the sample characteristics tested (age, sex, presence of psychopathology, and history of aggression) were related to study outcome (\Sexpr{m3.mp}).
+
+
+\begin{table*}[h]
+\centering
+\caption{Tests of Weighted Regression Models for ATD Moderators}
+\label{tab:atdregtab}
+\footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_atd.tex}}
+\end{table*}
+
+
+\subsection{Pharmacological Challenge Studies}
+<<Pharm, echo=FALSE>>= 
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/pharm/pharm_results.RData")
+@
+We identified \Sexpr{k} acute pharmacological challenge studies with a total of \Sexpr{es} effect sizes consisting of $\Sexpr{N}$ participants (see Figure~\ref{fig:pharm_forest}). The weighted mean effect size was $r$ = \Sexpr{fe} for the fixed effects model (\Sexpr{fe.ci}) and $r$ = \Sexpr{re} for the random effects model (\Sexpr{re.ci}), both of which were statistically significant. The test for heterogeneity was not significant, circumventing the need for moderator analyses \ensuremath{\Sexpr{i2}}. All four criteria were met for statistically testing funnel plot asymmetry \parencite[see][]{Ioannidis2007}. Funnel plot assessment of small-study bias revealed adequate symmetry in the distribution of study effects (\Sexpr{fnnl.egger}; see Figure~\ref{fig:funnel}).
+
+
+\subsection{Endocrine Challenge}
+<<Endo, echo=FALSE>>=
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/endo/endo_results.RData")
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/endo_cor/endo_cor_results.RData")
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/endo_gh/endo_gh_results.RData")
+load(file="/home/duke/Dropbox/serotonin/paper/results/sections/endo_overall/endo_overall_results.RData")
+@
+\subsubsection{Prolactin}
+The weighted mean effect size across the \Sexpr{k} studies that tested the relation between  prolactin response and aggression, anger, and hostility was $r = \Sexpr{fe}$ for the fixed effects model (\Sexpr{fe.ci}) and $r = \Sexpr{re}$ for the random effects model (\Sexpr{re.ci}), both of which were significant. Individual study effect sizes for both prolactin and cortisol are displayed in Figure~\ref{fig:endo_forest}, and funnel plots are presented in Figure~\ref{fig:funnel}. There was significant heterogeneity across studies suggesting the need for moderator analyses \ensuremath{\Sexpr{i2}}. Furthermore, Egger's test of funnel plot asymmetry was not significant, suggesting adequate symmetry (\Sexpr{fnnl.egger}). 
+
+
+Possible methodological moderators were tested in univariate metaregression models and then combined in a multiple metaregression model (see Table~\ref{tab:endregtab}). The multiple metaregression model, which included sample size, year of publication, quality, and study design, did not explain a significant amount of variance in study outcomes \Sexpr{m1.mp}. A multiple metaregression model including participant gender, age, history of aggression, and psychopathology was not significant \Sexpr{m2.mp} (Table~\ref{tab:endregtab}). Mean weighted effects across the various drugs used to elicit endocrine responses did not differ significantly (Table~\ref{tab:drugsx2}), even after taking dose into account.
+
+
+\begin{table*}
+\caption{Tests of Weighted Regression Models for Prolactin Challenge Test Moderators}
+\label{tab:endregtab}
+\footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_endo.tex}}
+\vspace*{.95in}
+\end{table*}
+ 
+ 
+\begin{table*}
+\centering
+\caption{Categorical Analysis of Drug Influence on Endocrine Response}
+\label{tab:drugsx2}
+\small{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_endo2.tex}}
+\vspace*{.6in}
+\end{table*}
+
+
+\subsubsection{Cortisol}
+A total of \Sexpr{c.k} studies were found that tested the relation between cortisol response and aggression, anger, and hostility (see Figure ~\ref{fig:endo_forest}). The mean weighted effect size was $r = \Sexpr{c.fe}$ for the fixed effects model (\Sexpr{c.fe.ci} and $r = \Sexpr{c.re}$ for the random effects model (\Sexpr{c.re.ci}, both of which were not significantly different from zero. Dissimilar to prolactin, cortisol studies did not exhibit significant heterogeneity \ensuremath{\Sexpr{c.i2}}, and therefore, methodological and sample characteristic moderator analyses were not conducted. However, the moderating impact of different drugs used to elicit the cortisol response was tested and is presented in the bottom of Table~\ref{tab:drugsx2}. The effects of different drugs did not differ significantly from one another.
+
+
+\subsection{Combined Estimate} 
+<<Combined, echo=FALSE>>=
+load("/home/duke/Dropbox/serotonin/paper/results/sections/overall/overall_results.RData")
+load("/home/duke/Dropbox/serotonin/paper/results/sections/aggression/aggression_results.RData")
+@
+The weighted mean effect size across $k = \Sexpr{k.studies}$ studies that tested the relation between serotonin and aggression was $r = \Sexpr{fe}$ for the fixed effects model (\Sexpr{fe.ci}) and $r = \Sexpr{re}$ for the random effects model (\Sexpr{re.ci}), both of which were significantly different from zero. Effect sizes exhibited significant heterogeneity across studies \ensuremath{\Sexpr{i2}}. Moderator analyses were conducted and are presented in Table~\ref{tab:overall_m1}. Unsurprisingly, the quality of information used to calculate the effect sizes was significantly related to effect size magnitude in both univariate and multivariate models such that larger magnitude effect sizes were associated with more detailed statistical reporting \Sexpr{m1.mp}. None of the demographic moderators were significantly related to effect size \Sexpr{m2.mp}.
+
+
+A comparison across methods of measuring central serotonergic functioning is presented in Table~\ref{tab:comparison}. Findings across methods did not differ significantly one from another \Sexpr{mc1.between}. A comparison across aggression, hostility, and anger measures is presented in Table~\ref{tab:aggmeas}. There was significant heterogeneity between measures \Sexpr{am1.between} in addition to significant residual heterogeneity after taking measure into account \Sexpr{am1.within}. Moderator analyses conducted to determine if effect sizes differed across construct, source of information, temporal scope, and modality are presented in Table~\ref{tab:aggression}. Measures differed across source of information, but not construct, temporal scope, or modality. Interestingly, the mean weighted effect of studies that relied on \emph{other-reports} was significant in a positive direction \Sexpr{msrc[['r']]}, \Sexpr{msrc[['ci']]}, while measures that relied on \emph{self-reports} of aggression, anger, or hostility were significant in the expected negative direction \Sexpr{msrc2[['r']]}, \Sexpr{msrc2[['ci']]}.
+
+
+\begin{table*}[h]
+  \caption{Tests of Weighted Regression Models of Likely Moderators for All Studies}
+  \label{tab:overall_m1}  
+  \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_overall.tex}}
+  \vspace*{.95in}
+\end{table*}
+
+
+\begin{table*}[h]
+ \centering
+ \caption{Comparison of Methods for Assessing Serotonergic Functioning}
+ \label{tab:comparison}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_comp.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{table*}[h] 
+ \centering
+ \caption{Measures of Aggression-related Constructs}
+ \label{tab:aggmeas}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_aggress.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{table*}[h] 
+ \centering
+ \caption{Properties of Measures of Aggression-related Constructs}
+ \label{tab:aggression}
+ \footnotesize{\input{/home/duke/Dropbox/rev5ht/paper/results/tables/table_agg.tex}}
+ \vspace*{.6in} 
+\end{table*}
+
+
+\begin{figure*}
+  \centering 
+  \textsf{\input{/home/duke/Dropbox/serotonin/paper/results/sections/funnel/funnel.tex}}
+  \caption{Funnel plots with pseudo 95\% confidence limits}
+  \label{fig:funnel}
+\end{figure*} 
+ 
+
+%            %
+% DISCUSSION %
+%            %
+\input{/home/duke/Dropbox/rev5ht/paper/scussion/scussion.tex}
+
+\printbibliography
+<<nothingmuch, echo=FALSE, results='hide'>>=
+load("~/Dropbox/serotonin/analyses/combined/combined.RData")
+@
+
+
+\appendix
+\newrefsection
+\centering
+\textbf{Appendix\\ References Included in Meta-analysis}
+\vspace*{-1em}
+\fullcitebib{\Sexpr{refs}}
+
+\end{document}
+

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1150.0017"
+   height="779.271"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="flow.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path4384"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend"
+       style="overflow:visible">
+      <path
+         id="path4366"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4384-5"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4384-8"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4384-2"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5236"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5238"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.90748225"
+     inkscape:cx="599.03267"
+     inkscape:cy="394.36392"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-left="0.3"
+     fit-margin-top="0.4"
+     fit-margin-right="0.3"
+     fit-margin-bottom="0.4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-198.54568,449.39527)">
+    <g
+       transform="matrix(2.5976606,0,0,2.5976606,353.83043,-192.49169)"
+       id="g3223"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <rect
+         y="88.012367"
+         x="127.14286"
+         height="112.42139"
+         width="255.16771"
+         id="rect3296-8-7-2"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3298-2-1-7"
+         y="105.72343"
+         x="133.36148"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+         xml:space="preserve"><tspan
+           id="tspan3302-5-1-6"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="105.72343"
+           x="133.36148"
+           sodipodi:role="line">84 studies excluded for the following reasons:</tspan><tspan
+           id="tspan3019"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="119.50649"
+           x="133.36148"
+           sodipodi:role="line">     Lacked effect sizes for substance use (<tspan
+   id="tspan3021"
+   style="font-style:italic">n</tspan> = 43)</tspan><tspan
+           id="tspan3023"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="133.29637"
+           x="133.36148"
+           sodipodi:role="line">     Lacked effect sizes for violence (<tspan
+   id="tspan3025"
+   style="font-style:italic">n</tspan> = 19)</tspan><tspan
+           id="tspan3027"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="147.05321"
+           x="133.36148"
+           sodipodi:role="line">     Did not report association between substance</tspan><tspan
+           id="tspan3029"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="160.83626"
+           x="133.36148"
+           sodipodi:role="line">         use and violence (<tspan
+   id="tspan3031"
+   style="font-style:italic">n</tspan> = 5)</tspan><tspan
+           id="tspan3033"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="174.62614"
+           x="133.36148"
+           sodipodi:role="line">     Not a quantitative review (<tspan
+   id="tspan3035"
+   style="font-style:italic">n</tspan> = 8)</tspan><tspan
+           id="tspan3039"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="188.41605"
+           x="133.36148"
+           sodipodi:role="line">     Substance was not alcohol or illicit drug (<tspan
+   id="tspan3041"
+   style="font-style:italic">n</tspan> = 8)</tspan><tspan
+           id="tspan3017"
+           style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+           y="202.20593"
+           x="133.36148"
+           sodipodi:role="line" /></text>
+    </g>
+    <g
+       id="g3408-1-1-2-1"
+       transform="matrix(2.5976606,0,0,2.5976606,-190.27656,-67.736127)"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g4316-7"
+         transform="translate(23.140949,-75.483571)">
+        <rect
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect3296-8-7-4-2-4"
+           width="144.32721"
+           height="37.502243"
+           x="127.14286"
+           y="88.012367" />
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+           x="200.82355"
+           y="102.78743"
+           id="text3298-2-1-2-1-0"
+           sodipodi:linespacing="125%"><tspan
+             id="tspan4314-4"
+             sodipodi:role="line"
+             x="200.82355"
+             y="102.78743"
+             style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">116 studies selected</tspan><tspan
+             sodipodi:role="line"
+             x="200.82355"
+             y="116.53743"
+             style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+             id="tspan3096">for full-text review</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3408-1-1-2-1-8-1"
+       transform="matrix(2.5976606,0,0,2.5976606,334.99074,-561.78835)"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g4316-7-8-3"
+         transform="translate(21.488024,-73.279671)">
+        <g
+           id="g3143-8">
+          <g
+             id="g3429"
+             transform="translate(-200.55489,29.201673)">
+            <rect
+               style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+               id="rect3296-8-7-4-2-4-2-7"
+               width="144.32721"
+               height="37.502243"
+               x="127.14286"
+               y="88.012367" />
+            <text
+               xml:space="preserve"
+               style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+               x="199.42194"
+               y="102.73517"
+               id="text3298-2-1-2-1-0-4-4"
+               sodipodi:linespacing="125%"><tspan
+                 sodipodi:role="line"
+                 x="199.42194"
+                 y="102.73517"
+                 style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+                 id="tspan3096-5-2">1,572 records identified</tspan><tspan
+                 sodipodi:role="line"
+                 x="199.42194"
+                 y="116.48517"
+                 style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+                 id="tspan3141-7">through database searches</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g3408-1-1-2-7"
+       transform="matrix(2.5976606,0,0,2.5976606,-185.98282,192.47852)"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g4316-9"
+         transform="translate(21.488024,-73.279671)">
+        <rect
+           style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="rect3296-8-7-4-2-3"
+           width="144.32721"
+           height="37.502243"
+           x="127.14286"
+           y="88.012367" />
+        <text
+           xml:space="preserve"
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+           x="200.82355"
+           y="102.78743"
+           id="text3298-2-1-2-1-1"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="200.82355"
+             y="102.78743"
+             style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+             id="tspan3302-5-1-3-6-9">32 meta-analyses included</tspan><tspan
+             id="tspan4314-8"
+             sodipodi:role="line"
+             x="200.82355"
+             y="116.53743"
+             style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial">in quantitative review</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g3139"
+       transform="translate(0,146.55934)">
+      <g
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+         id="g3223-6"
+         transform="matrix(2.5976606,0,0,2.5976606,531.30495,-808.81448)">
+        <g
+           id="g3387"
+           transform="translate(-68.320896,106.88914)">
+          <rect
+             y="88.012367"
+             x="127.14286"
+             height="28.673191"
+             width="255.16771"
+             id="rect3296-8-7-2-1"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3298-2-1-7-8"
+             y="106.28329"
+             x="130.9982"
+             style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+             xml:space="preserve"><tspan
+               id="tspan3039-3"
+               style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+               y="106.28329"
+               x="130.9982"
+               sodipodi:role="line">643 studies excluded after title and abstract review</tspan><tspan
+               id="tspan3017-1"
+               style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial"
+               y="120.03329"
+               x="130.9982"
+               sodipodi:role="line" /></text>
+        </g>
+      </g>
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3541"
+         d="m 387.56636,-349.19321 0,162.06214"
+         style="fill:none;stroke:#000000;stroke-width:2.59766054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+      <path
+         inkscape:export-ydpi="150"
+         inkscape:export-xdpi="150"
+         inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3541-0"
+         d="m 388.93397,-267.04093 286.22272,0"
+         style="fill:none;stroke:#000000;stroke-width:2.59766054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    </g>
+    <g
+       id="g3408-1-1-2-1-8"
+       transform="matrix(2.5976606,0,0,2.5976606,-185.98282,-340.13376)"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150">
+      <g
+         id="g4316-7-8"
+         transform="translate(21.488024,-73.279671)">
+        <g
+           id="g3143">
+          <rect
+             y="88.012367"
+             x="127.14286"
+             height="37.502243"
+             width="144.32721"
+             id="rect3296-8-7-4-2-4-2"
+             style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3298-2-1-2-1-0-4"
+             y="102.79962"
+             x="199.51862"
+             style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Lato;-inkscape-font-specification:Lato"
+             xml:space="preserve"><tspan
+               id="tspan3096-5"
+               style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+               y="102.79962"
+               x="201.04401"
+               sodipodi:role="line">759 records after </tspan><tspan
+               id="tspan3141"
+               style="font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Arial;-inkscape-font-specification:Arial"
+               y="116.54962"
+               x="199.51862"
+               sodipodi:role="line">duplicates removed</tspan></text>
+        </g>
+      </g>
+    </g>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.59766054px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 387.56636,-349.34294 0,38.25937"
+       id="path3541-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150" />
+    <g
+       id="g5266"
+       inkscape:export-filename="G:\Google Drive\active\metameta\paper\flow.png"
+       inkscape:export-xdpi="150"
+       inkscape:export-ydpi="150"
+       transform="matrix(2.5976606,0,0,2.5976606,-182.06957,-898.45728)">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3541-8"
+         d="m 219.28804,369.77739 0,62.38772"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3541-0-6"
+         d="m 219.81452,401.40287 110.1848,0"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    </g>
+  </g>
+</svg>

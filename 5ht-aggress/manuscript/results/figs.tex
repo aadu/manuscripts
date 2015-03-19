@@ -1,0 +1,92 @@
+\documentclass[man]{apa6}
+\input{/home/duke/Dropbox/rev5ht/paper/packages.tex}
+% \usepackage{pgfplots}
+% \usetikzlibrary{external}
+% \tikzexternalize
+% \tikzset{external/system call={latex \tikzexternalcheckshellescape -halt-on-error -interaction=batchmode -jobname "\image" "\texsource"; dvips -o "\image".eps "\image".dvi}}
+ 
+\begin{document}
+% \maketitle
+% 
+% 
+\begin{figure}
+   \centering
+   \vspace{.8in}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/flow/flow_source.tex}   
+%    \caption{Flow chart of literature search.}
+   \label{fig:flow}
+\end{figure}
+ 
+
+\pagebreak
+
+
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}   
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/hiaa/forest.tex}}   
+%    \caption{Forest plot of CSF 5-HIAA effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:hiaa_forest}
+\end{figure*}
+ 
+
+\pagebreak
+
+
+
+% 
+\begin{figure*}[p]   
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/atd/forest.tex}}
+%    \caption{Forest plot of ATD effect sizes with 95\% confidence intervals.\\ \vspace*{-.5in}}
+   \label{fig:atd_forest}   
+\end{figure*}
+ 
+
+\pagebreak
+
+
+
+\begin{figure*}[p]      
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/pharm/forest.tex}}
+%    \caption{Forest plot of pharmacological challenge effect sizes with 95\% confidence intervals. \\ \vspace*{-.5in}}   
+   \label{fig:pharm_forest}   
+\end{figure*}
+ 
+
+
+\pagebreak
+
+
+
+\begin{figure*}[p]
+   \vspace*{-1.4in}
+   \textsf{\ifapamodejou{\hspace*{-0.165in}}{\hspace*{-0.46in}}
+   \thispagestyle{empty}
+   \input{/home/duke/Dropbox/serotonin/paper/results/sections/endo/forest.tex}}   
+   \vspace*{-0.6in}
+%    \caption{Forest plot of endocrine challenge study effect sizes with 95\% confidence intervals.}
+   \label{fig:endo_forest}   
+\end{figure*}
+
+
+\pagebreak
+
+
+
+\begin{figure*}
+  \centering 
+  \thispagestyle{empty}
+  \textsf{\input{/home/duke/Dropbox/serotonin/paper/results/sections/funnel/funnel.tex}}
+%   \caption{Funnel plots with pseudo 95\% confidence limits}
+  \label{fig:funnel}
+\end{figure*} 
+ 
+
+
+\end{document}
+

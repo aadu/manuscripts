@@ -1,0 +1,60 @@
+\documentclass[jou]{apa6}
+\input{/home/duke/Dropbox/rev5ht/paper/packages.tex}
+\begin{document}
+\maketitle
+% find: \\cite\<(.*)\>{               replace: \parencite[\1][]{
+% \\cite\{                 \parencite{
+% \\cite\[(.*)\]\{         \parencite[][\1]{
+% \\cite\<(.*)\>\[(.*)\]\{         \parencite[\1][\2]{
+% \\citeA\{                \\textcite{
+\section{Methods}
+\subsection{Inclusion and Exclusion Criteria}
+To be included, studies needed to directly assess aggression, anger, or hostility in humans and serotonergic functioning using one of the four methodologies outlined above, namely, 
+1) CSF 5-HIAA, 2) acute tryptophan depletion, 3) pharmacological challenge, or 4) endocrine challenge.
+This review focuses on other-directed aggression; therefore, studies that included only measures of self-directed harm were excluded.\footnote{For readers interested in serotonin's putative role in self-harm behaviors, including suicide, there are several excellent reviews and treatments on this topic \parencite[e.g.,][]{Lester1995, Mueller2004, Desmyter2011}.}
+
+
+%%%%%%%%%%%%%%%%%%%
+% SEARCH STRATEGY %
+%%%%%%%%%%%%%%%%%%%
+\subsection{Search Strategy}
+A comprehensive literature search was conducted for empirical studies of serotonin and aggression, anger, or hostility in humans across the following sources: PsycINFO, MEDLINE, CINAHL, System  for  Information  for  Grey Literature, Cochrane Central Register of Controlled Trials, and the Cochrane Database of Systematic Reviews. In each of these databases, study titles, abstracts, subjects, and keywords were searched from inception through December, 2011 using the following terms: \sc (aggress* or violen* or anger or angry or hostil*) and (((``5-hydroxy\-indole\-acetic acid'' or 5-hiaa or 5hiaa or ``mono\-amine metabo\-lite*'') and (``cerebro\-spinal fluid'' or csf)) or (``*tryptophan deplet*'' or atd or rtd or ``monoamine deplet*'' ) or (``serotonin reuptake inhibitor'' or ssri or ``endocrine challenge'' or ``pharmacological challenge'' or *chlorophenylpiperazine or mcpp or m-cpp or *paroxetine* or *fenfluramine* or *ipsapirone* or *citalopram* or *zolmitriptan* or *eltoprazine* or *fluvoxamine* or *escitalopram* or *fluoxetine*). \rm
+
+
+Note that an asterisk here represents a wild card character utilized in many scholarly databases that will match with any number of letters, typically placed at the end of a word to allow for variations in word endings. For example, ``aggress*'' matches ``aggression,'' ``aggressive,'' ``aggressor,'' or any other word that began with the letters ``aggress.'' A number of limiters were used to narrow the search results from PsycINFO, MEDLINE, and CINAHL. Specifically, results from these sources were filtered to include only empirical studies with human participants. Citations and reference sections were reviewed in articles selected for inclusion. The \emph{curricula vit\ae} of authors with more than one included study were obtained  and reviewed for additional relevant studies when possible. Additionally, multiple requests for unpublished studies were made over relevant academic channels, including directly contacting numerous primary authors of serotonin and aggression studies.
+
+
+
+%%%%%%%%%%%%%%%%
+% EFFECT SIZES %
+%%%%%%%%%%%%%%%%
+\subsection{Effect Sizes}
+All effect sizes were converted to correlation coefficients \parencite{Borenstein09}. All $r$s were signed so that positive correlations indicate a positive relation between serotonergic functioning and aggression while negative correlations represents an inverse relation between serotonin and aggression. In order to account for dependencies introduced by studies with multiple-endpoints, $r$s were aggregated according to procedures outlined by \textcite{GleserOlkin2009}, which take into account the correlation between the multiple measures. When the correlation between measures was not available, a default correlation of .5 was used to aggregate within-study effects \parencite{Wampold1997}.  
+%When not reported, the between-measures correlation was estimated from similar studies or else a correlation of .5 was utilized in order to aggregate within-study effects 
+Prior to the analyses, all $r$s underwent Fisher's variance stabilizing and normalizing transformation $r$-to-$z$ \parencite{FishersZ}.  Results were subsequently transformed back to $r$ prior to interpretation.
+
+
+Given a high prevalence of findings with insufficient data necessary to calculate an effect size, and the concerns of significant publication bias, effect size estimates for studies which reported only the direction and/or significance were calculated using maximum likelihood estimation (MLE) as outlined by \textcite{BushmanWang09}. This technique allows for an overall effect size estimate based upon observed significant differences ($\alpha = 0.05$) or observed differences where significance levels are not reported ($\alpha = 0.5$). In cases where detailed statistics were reported for statistically significant findings, but not for non-significant findings, the MLE-derived estimate was used when calculating aggregate study effects.
+
+
+Following the recommendation of \textcite{Orwin85}, confidence ratings were coded for study effect size statistics. Studies which reported raw data, bivariate correlation coefficients, means and standard deviations, mean standardized differences or other effect size statistics from which an effect size can be accurately derived were coded as involving ``minimal estimation.'' Complex, but complete statistics (e.g., partial correlation coefficients) or statistics where some uncertainty existed were coded as including ``moderate estimation.'' Finally, results derived from vote-counting procedures were coded as ``highly estimated.''
+
+
+%%%%%%%%%%%%%%%%%
+% DATA ANALYSES %
+%%%%%%%%%%%%%%%%%
+\subsection{Data Analysis}
+Studies were weighted by the inverse of their variance \parencite{Shadish09}. Mean weighted effect sizes are presented for both fixed-effects and random-effects models with estimates of heterogeneity ($Q$ and $I^2$ statistics) derived from the fixed-effects model. Moderator analyses were conducted using a mixed-effects model when significant heterogeneity was evinced in the combined estimate \parencite[see][]{Lipsey01}. Random-effects and mixed-effects models were estimated using restricted maximum-likelihood estimation (REML) along with the \textcite{Knapp03} adjustment to account for uncertainty in the amount of residual heterogeneity.  All analyses were conducted in \texttt{R} using the \texttt{metafor} package \parencite{metafor}.  
+
+
+%\subsubsection{Moderator Analyses}  
+Methodological variables of interest included experimental design, sample size, quality of reported effect size, drugs, doses, hormones, comparison groups, control conditions, and assessment instruments. The following demographic variables were also coded for moderator analyses: age, gender, race/ethnicity, history of aggression, and presence of psychopathology. Methodological and demographic variables were not included in moderator analyses if reported in fewer than 50\% of studies. For the remaining potential moderator variables, multiple-imputation \parencite{Pigott09} was used to estimate missing values using the \texttt{mi} package \parencite{mi} for \texttt{R}. 
+
+
+%\subsubsection{Publication Bias}
+The well-documented tendency for significant research findings to be published more often that non-significant findings has been highlighted as a problem in meta-analyses since its inception \parencite[see][]{Sutton09}. Fortunately, a variety of techniques have been developed to estimate the degree to which the ``file drawer problem'' \parencite[][638]{Rosenthal79} is distorting meta-analytic findings. One method relies on a visual inspection of the symmetry of a ``funnel plot'' where effect sizes are plotted against their variance or sample size. Because studies using larger sample sizes typically have less variance, their estimates of the population effect size should be more accurate than studies with smaller sample sizes or with larger variance in their findings.  Hence, in the measurement of a single population effect, one would expect multiple studies to form a ``funnel'' shape with less-accurate studies forming a broad, symmetrical distribution around the population effect and more-accurate studies forming a much tighter, symmetrical distribution around the population effect size. If this pattern is not evidenced, particularly in regard to studies with smaller samples or greater variance, there may be reason to believe that publication bias is significantly distorting one's findings. It is important to note that there are other possible explanations of small-study bias and therefore asymmetrical funnel plots should not be interpreted as providing conclusive evidence of publication bias. In order to assess for small-study bias in the present review, a series of funnel plots were created for each methodology used to assess 5-HT functioning. These plots were analyzed both visually and, when appropriate, statistically using Egger's regression test \parencite{Egger97}. Asymmetry tests are most appropriate when effect sizes are not significantly heterogeneous, there are at least 10 studies, the ratio of extreme variances is greater than 4, and at least some of the findings are statistically significant \parencite{Ioannidis2007}.
+
+
+\printbibliography
+\end{document}
+
